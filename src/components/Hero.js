@@ -99,7 +99,7 @@ const HeroSection = () => {
       <section className="container mx-auto flex flex-col items-center px-8 pb-16 sm:flex-row-reverse sm:px-12">
         <div className="mb-8 w-full sm:mb-0 sm:w-1/2 sm:pl-4 md:pl-16">
           <Image
-            alt="Hanging out with friends"
+            alt="Dheeraj Image"
             className="rounded-lg sm:rounded-br-[80px] sm:rounded-tl-[120px]"
             src={DheerajHero}
             width={1000}
@@ -112,7 +112,7 @@ const HeroSection = () => {
         </div>
         <div className="mr-4 w-full text-center sm:w-1/2 sm:text-left">
           <h1 className="mb-6 text-3xl font-bold leading-tight dark:text-slate-50 md:text-4xl">
-            👋<span className="text-rose-500	">Hey,  I'm  <br></br>
+            👋<span className="text-rose-500	">Hey,  I &apos;m  <br></br>
             <span className="text-black text-4xl lg:text-7xl">Dheeraj Thakur</span> 
               </span> <br></br>{" "}
             <span className="text-violet-500 text-2xl lg:text-4xl font-extrabold mb-4">
@@ -121,7 +121,7 @@ const HeroSection = () => {
             
           </h1>
           <p className="mb-2 leading-relaxed text-slate-700 dark:text-slate-400">
-          Unlocking the extraordinary in the digital realm, I don't just code – I weave passion into every line. Each stroke of code is an art, solving problems while elevating user experiences. Join me in reshaping the digital landscape, one beautifully crafted project at a time.
+          Unlocking the extraordinary in the digital realm, I don &apos;t just code – I weave passion into every line. Each stroke of code is an art, solving problems while elevating user experiences. Join me in reshaping the digital landscape, one beautifully crafted project at a time.
           </p>
           
           <div className="flex flex-row space-y-3 md:flex-row md:space-x-2 md:space-y-0">

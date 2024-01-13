@@ -12,6 +12,8 @@ const HireMe = () => {
           src={hireme}
           width={150}
           height={150}
+          alt="images description"
+          
         />
         <Link
           href="mailto:dk578206@gmail.com"
