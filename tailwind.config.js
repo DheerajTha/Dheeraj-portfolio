@@ -12,6 +12,18 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        mont: ['var(--font-mont)'],
+      },
+      colors:{
+        primary: "#f43f5e",
+        dark: "#000000",
+        light: "#f5f5f5",
+        secondary: "#8b5cf6",
+      },
+      animation: {
+        'spin-slow': 'spin 8s linear infinite',
+      },
     },
   },
   plugins: [],
