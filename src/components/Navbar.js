@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <>
       <header
-        className="w-full bg-light hidden border-b-2 lg:block sticky z-[30] top-0 "
+        className="w-full mx-5 bg-light hidden border-b-2 lg:block sticky z-[30] top-0 "
       >
         <div className=" mx-auto container flex flex-row  items-center justify-between py-5">
           <MotionLink href={"/"} className="link animated inAndOut">
