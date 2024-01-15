@@ -4,30 +4,33 @@ import Link from "next/link";
 import { HiOutlineMenuAlt3, HiOutlineX } from "react-icons/hi";
 import { BsTelephone } from "react-icons/bs";
 import { MdSort } from "react-icons/md";
-import { useEffect, useRef, useState } from "react";
+import {  useState } from "react";
+import { FaInstagram, FaLinkedin, FaGithub, FaFacebookF } from "react-icons/fa";
+
 
 const MotionLink = motion(Link);
 
 const Navbar = () => {
   const [toggle, settoggle] = useState(false);
 
-
-
   return (
     <>
       <header
-        className="w-full bg-light hidden border-b-2 lg:block sticky z-[1] top-0 "
+        className="w-full bg-light hidden border-b-2 lg:block sticky z-[30] top-0 "
       >
-        <div className=" mx-auto container flex flex-row  items-center justify-around py-5">
-          <Link href={"/"} className="link animated inAndOut">
+        <div className=" mx-auto container flex flex-row  items-center justify-between py-5">
+          <MotionLink href={"/"} className="link animated inAndOut">
             Home
-          </Link>
-          <Link href={"/services"} className="link animated inAndOut">
-            Our Services
-          </Link>
-          <Link href={"/"} className="link animated inAndOut">
-            Happy Clients
-          </Link>
+          </MotionLink>
+          <MotionLink href="/about" className="link animated inAndOut">
+            About
+          </MotionLink>
+          <MotionLink href={"/project"} className="link animated inAndOut">
+            projects
+          </MotionLink>
+          <MotionLink href={"/contact"} className="link animated inAndOut">
+            Contact  
+          </MotionLink>
           <nav class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center lg:items-center lg:justify-center mb-4 md:mb-0">
             <MotionLink
               href="/"
@@ -46,15 +49,22 @@ const Navbar = () => {
               DT
             </MotionLink>
           </nav>
-          <Link href={"/project"} className="link animated inAndOut">
-            Our Projects
-          </Link>
-          <Link href={"/about"} className="link animated inAndOut">
-            About us
-          </Link>
-          <Link href={"/contact-us"} className="link animated inAndOut">
-            Contact us
-          </Link>
+          
+          <Link className=" gap  ball" href="/" target={"_blank"}>
+                <FaGithub size={25} />
+              </Link>
+              <Link className="" href="/" target={"_blank"}>
+                <FaFacebookF size={25} />
+              </Link>
+              <Link className="" href="/" target={"_blank"}>
+                <FaInstagram size={25} />
+              </Link>
+              <Link className="" href="/" target={"_blank"}>
+                <FaLinkedin size={25} />
+              </Link>
+              
+              
+          
         </div>
       </header>
 
@@ -105,49 +115,43 @@ const Navbar = () => {
           />
 
           <div>
-            <Link
+            <MotionLink
               href={"/"}
               className="links  inAndOut py-5"
               onClick={() => settoggle(!toggle)}
             >
               Home
-            </Link>
-            <Link
-              href={"/services"}
+            </MotionLink>
+            <MotionLink
+              href={"/"}
               className="links  inAndOut py-5"
               onClick={() => settoggle(!toggle)}
             >
               Our Services
-            </Link>
-            <Link
+            </MotionLink>
+            <MotionLink
               href={"/"}
               className="links  inAndOut py-5"
               onClick={() => settoggle(!toggle)}
             >
               Happy Clients
-            </Link>
+            </MotionLink>
 
-            <Link
-              href={"/project"}
+            <MotionLink
+              href={"/"}
               className="links  inAndOut py-5"
               onClick={() => settoggle(!toggle)}
             >
               Our Projects
-            </Link>
-            <Link
-              href={"/about"}
+            </MotionLink>
+            <MotionLink
+              href={"/"}
               className="links  inAndOut py-5"
               onClick={() => settoggle(!toggle)}
             >
               About us
-            </Link>
-            <Link
-              href={"/contact-us"}
-              className="links  inAndOut py-5"
-              onClick={() => settoggle(!toggle)}
-            >
-              Contact us
-            </Link>
+            </MotionLink>
+            
           </div>
         </div>
       </nav>
