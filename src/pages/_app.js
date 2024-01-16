@@ -24,6 +24,7 @@ function MyApp({ Component, pageProps }) {
 
     <>
     <Head>
+    <meta name="google-site-verification" content="PMGsEyzGpa99D2R45zKD5xfDoPq-VqaggyXOGWYbjZA" />
     <meta name='viewport' content='width=device-width, initial-scale=1'/>
     <link  rel='icon' href='/favicon.ico'/>
     </Head>
