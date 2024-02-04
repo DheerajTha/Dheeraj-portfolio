@@ -69,12 +69,12 @@ const Navbar = () => {
       </header>
 
       <div
-        className="flex justify-between items-center py-4 px-3 lg:hidden sticky z-[1] top-0 shadow-primary bg-bg-color"
+        className="flex justify-between items-center py-4 px-3 lg:hidden bg-light sticky z-[1] top-0 shadow-primary bg-bg-color"
       >
         <MdSort
           onClick={() => settoggle(!toggle)}
           size={45}
-          className="  text-secondary transition-all duration-1000 ease-out lg:hidden"
+          className="  text-black transition-all duration-1000 ease-out lg:hidden"
         />
 
         <div>
@@ -99,7 +99,7 @@ const Navbar = () => {
         <BsTelephone
           onClick={() => settoggle(!toggle)}
           size={35}
-          className="  text-secondary transition-all duration-1000 ease-out lg:hidden"
+          className="  text-black transition-all duration-1000 ease-out lg:hidden"
         />
       </div>
       <nav
@@ -107,7 +107,7 @@ const Navbar = () => {
            translate-y-2.5  lg:hidden top-[-10px] fixed z-30 w-full text-center  mobile-menu border-none
           ${toggle ? "right-[0%]" : "right-[-100%]"} `}
       >
-        <div className="h-screen bg-dark grid justify-center items-center text-secondary relative">
+        <div className="h-screen bg-light z-[30] grid justify-center items-center text-secondary relative">
           <HiOutlineX
             onClick={() => settoggle(!toggle)}
             size={45}
