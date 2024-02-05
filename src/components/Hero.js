@@ -4,7 +4,7 @@ import Image from "next/image";
 import React from "react";
 import {  FaPhoneAlt } from "react-icons/fa";
 import HireMe from "@/components/Hire.js"
-import DheerajHero from "@/Assets/DheerajHero.png";
+import DheerajHero from "@/Assets/dheeraj.png";
 import TabOption from "./TabOption";
 
 const HeroSection = () => {

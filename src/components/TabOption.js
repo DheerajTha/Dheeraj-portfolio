@@ -2,8 +2,8 @@ import React from "react";
 // import { IconMessageCircle, IconSettings } from "@tabler/icons-react";
 import { Tabs, rem } from "@mantine/core";
 import Education from "./Education";
-import ProgressBar from "./Progressbar";
 import Experience from "./Experience";
+import Skill from "./Skill";
 
 const TabOption = () => {
   // const iconStyle = { width: rem(40), height: rem(12) };
@@ -42,7 +42,7 @@ const TabOption = () => {
         </Tabs.Panel>
 
         <Tabs.Panel value="skill">
-          <ProgressBar />
+          <Skill/>
         </Tabs.Panel>
 
         <Tabs.Panel value="experience">
