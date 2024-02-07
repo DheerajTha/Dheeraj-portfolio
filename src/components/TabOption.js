@@ -10,8 +10,8 @@ const TabOption = () => {
   return (
     <div>
       <div className="container mx-auto px-16 pb-2">
-        <h2 className="text-dark font-extrabold text-2xl"> 😎About Us </h2>
-        <p className="text-primary text-2xl font-semibold">
+        <h2 className="text-dark font-extrabold text-2xl sm:text-4xl"> 😎ABOUT US </h2>
+        <p className="text-primary text-2xl sm:text-4xl font-semibold">
           Hey there, I&apos; m Dheeraj Thakur{" "}
         </p>
         <p className="text-dark py-1">

@@ -28,8 +28,8 @@ const Navbar = () => {
           <MotionLink href={"/project"} className="link animated inAndOut">
             projects
           </MotionLink>
-          <MotionLink href={"/contact"} className="link animated inAndOut">
-            Contact  
+          <MotionLink href={"/blogs"} className="link animated inAndOut">
+            Blogs  
           </MotionLink>
           <nav class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center lg:items-center lg:justify-center mb-4 md:mb-0">
             <MotionLink
@@ -50,26 +50,23 @@ const Navbar = () => {
             </MotionLink>
           </nav>
           
-          <Link className=" gap  ball" href="/" target={"_blank"}>
+          <Link className=" gap  ball" href="https://github.com/DheerajTha" target={"_blank"}>
                 <FaGithub size={25} />
               </Link>
-              <Link className="" href="/" target={"_blank"}>
+              <Link className="" href="https://www.facebook.com/dheeraj.thakur.5243817" target={"_blank"}>
                 <FaFacebookF size={25} />
               </Link>
-              <Link className="" href="/" target={"_blank"}>
+              <Link className="" href="https://www.instagram.com/developer_dheeraj.thakur/" target={"_blank"}>
                 <FaInstagram size={25} />
               </Link>
-              <Link className="" href="/" target={"_blank"}>
+              <Link className="" href="https://www.linkedin.com/in/dheeraj-thakur-0b7033226/" target={"_blank"}>
                 <FaLinkedin size={25} />
               </Link>
-              
-              
-          
+        
         </div>
       </header>
-
       <div
-        className="flex justify-between items-center py-4 px-3 lg:hidden sticky z-[1] top-0 shadow-primary bg-bg-color"
+        className="flex justify-between bg-light items-center py-4 px-3 lg:hidden sticky z-[30] top-0 shadow-primary bg-bg-color"
       >
         <MdSort
           onClick={() => settoggle(!toggle)}
@@ -123,35 +120,28 @@ const Navbar = () => {
               Home
             </MotionLink>
             <MotionLink
-              href={"/"}
+              href={"/about"}
               className="links  inAndOut py-5"
               onClick={() => settoggle(!toggle)}
             >
-              Our Services
+              About
             </MotionLink>
             <MotionLink
-              href={"/"}
+              href={"/project"}
               className="links  inAndOut py-5"
               onClick={() => settoggle(!toggle)}
             >
-              Happy Clients
+              Project
             </MotionLink>
 
             <MotionLink
-              href={"/"}
+              href={"/blogs"}
               className="links  inAndOut py-5"
               onClick={() => settoggle(!toggle)}
             >
-              Our Projects
+              Blogs
             </MotionLink>
-            <MotionLink
-              href={"/"}
-              className="links  inAndOut py-5"
-              onClick={() => settoggle(!toggle)}
-            >
-              About us
-            </MotionLink>
-            
+           
           </div>
         </div>
       </nav>
