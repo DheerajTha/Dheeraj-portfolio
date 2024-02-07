@@ -18,13 +18,13 @@ const about = () => {
             😍 BIO
           </h1>
           <p class=" leading-relaxed text-dark">
-            Greetings! I'm Dheeraj Thakur, a seasoned web developer with a year
+            Greetings! I&apos;m Dheeraj Thakur, a seasoned web developer with a year
             of hands-on experience in crafting digital wonders. My journey in
             the dynamic world of web development began with a spark of curiosity
             and a drive to innovate. From the outset, I was captivated by the
             endless possibilities of the digital realm, and I embarked on a
             quest to turn ideas into engaging online experiences. With a
-            meticulous approach to my craft, I've honed my skills in both
+            meticulous approach to my craft, I&apos;ve honed my skills in both
             front-end and back-end development. Conceptualizing sleek user
             interfaces and meticulously coding robust backend systems have
             become second nature to me. Each line of code is a brushstroke on
@@ -32,20 +32,20 @@ const about = () => {
             create digital masterpieces. In the realm of ones and zeros, I
             navigate with a keen eye for detail, striving for both aesthetic
             excellence and seamless functionality. My commitment to excellence
-            is unwavering, and I'm constantly pushing the boundaries of what's
+            is unwavering, and I&apos;m constantly pushing the boundaries of what&apos;s
             possible in web development. Staying at the forefront of industry
             trends is not just a goal but a passion of mine, as I believe that
             innovation is the key to staying relevant in this ever-evolving
             landscape. Each project I undertake is not just a task but a
-            testament to my dedication to the craft. Whether it's a small-scale
+            testament to my dedication to the craft. Whether it&apos;s a small-scale
             website or a complex web application, I approach each endeavor with
             the same level of enthusiasm and determination. My goal is not just
             to meet expectations but to exceed them, delivering solutions that
             leave a lasting impression. Join me as we embark on a digital
-            journey where innovation meets precision, and together, we'll bring
-            your vision to life. Whether you're a small business looking to
+            journey where innovation meets precision, and together, we&apos;ll bring
+            your vision to life. Whether you &apos;;re a small business looking to
             establish your online presence or a large corporation in need of a
-            custom web solution, I'm here to help. Let's collaborate and create
+            custom web solution, I &apos;m here to help. Let&apos;s collaborate and create
             something extraordinary that will stand the test of time in the vast
             digital landscape.
           </p>
