@@ -114,7 +114,7 @@ const Blogs = () => {
             Optimize your HTML code for search engines to ensure your website
             ranks high in search results. From choosing meaningful title tags to
             crafting descriptive meta descriptions, we cover essential SEO
-            practices to boost your website's visibility.
+            practices to boost your website&apos;s visibility.
           </AccordionBody>
         </Accordion>
 
