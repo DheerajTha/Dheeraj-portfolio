@@ -6,6 +6,8 @@ import { BsTelephone } from "react-icons/bs";
 import { MdSort } from "react-icons/md";
 import {  useState } from "react";
 import { FaInstagram, FaLinkedin, FaGithub, FaFacebookF } from "react-icons/fa";
+import Image from "next/image";
+import Logo from "@/Assets/Logo1.png"
 
 
 const MotionLink = motion(Link);
@@ -26,13 +28,13 @@ const Navbar = () => {
             About
           </MotionLink>
           <MotionLink href={"/project"} className="link animated inAndOut">
-            projects
+            Projects
           </MotionLink>
           <MotionLink href={"/blogs"} className="link animated inAndOut">
             Blogs  
           </MotionLink>
           <nav class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center lg:items-center lg:justify-center mb-4 md:mb-0">
-            <MotionLink
+            {/* <MotionLink
               href="/"
               class="bg-dark w-16 h-16   flex items-center justify-center font-bold text-2xl text-light rounded-full"
               whileHover={{
@@ -47,7 +49,10 @@ const Navbar = () => {
               }}
             >
               DT
-            </MotionLink>
+            </MotionLink> */}
+            <Link href="/">
+            <Image src={Logo} width={75} height={70} className="items-center transition-all hover:scale-110"/>
+            </Link>
           </nav>
           
           <Link className=" gap  ball" href="https://github.com/DheerajTha" target={"_blank"}>
@@ -75,7 +80,7 @@ const Navbar = () => {
         />
 
         <div>
-          <MotionLink
+          {/* <MotionLink
             href="/"
             class="bg-black w-16 h-16   flex items-center justify-center font-bold text-2xl text-light rounded-full"
             whileHover={{
@@ -90,25 +95,28 @@ const Navbar = () => {
             }}
           >
             DT
-          </MotionLink>
+          </MotionLink> */}
+          <Link href="/">
+          <Image src={Logo} width={50} height={50} className="transition-all hover:scale-110"/>
+          </Link>
         </div>
 
-        <BsTelephone
+        {/* <BsTelephone
           onClick={() => settoggle(!toggle)}
           size={35}
           className="  text-dark transition-all duration-1000 ease-out lg:hidden"
-        />
+        /> */}
       </div>
       <nav
         className={`duration-700 
-           translate-y-2.5  lg:hidden top-[-10px] fixed z-30 w-full text-center  mobile-menu border-none
+           translate-y-2.5  lg:hidden top-[-10px] fixed z-40 w-full text-center  mobile-menu border-none
           ${toggle ? "right-[0%]" : "right-[-100%]"} `}
       >
         <div className="h-screen bg-dark grid justify-center items-center text-secondary relative">
           <HiOutlineX
             onClick={() => settoggle(!toggle)}
             size={45}
-            className=" absolute top-5 left-5 z-10 text-secondary"
+            className=" absolute top-5 left-5 z-10 text-light"
           />
 
           <div>

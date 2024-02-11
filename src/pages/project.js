@@ -9,6 +9,7 @@ import {
 import ProjectCard from "@/components/Projectcard.js";
 
 import React from "react";
+import Transition from "@/components/Transition";
 
 const Project = () => {
   const testimonials = [
@@ -35,7 +36,8 @@ const Project = () => {
   ];
 
   return (
-    <div>
+    <>
+      <Transition/>
       <div className="container text-secondary px-5 mx-auto pt-20">
         <div class="hidden h-60 relative w-full xl:flex justify-center items-center">
           <h1 class="absolute top-0  text-9xl font-bold text-secondary z-0 ">
@@ -60,7 +62,7 @@ const Project = () => {
           ))}
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

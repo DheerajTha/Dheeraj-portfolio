@@ -6,6 +6,7 @@ import { AppProps } from 'next/app';
 import { Montserrat } from 'next/font/google';
 import Head from 'next/head';
 import Navbar from '@/components/Navbar';
+import { AnimatePresence } from 'framer-motion';
 import Footer from '@/components/Footer';
 
 const theme = createTheme({
@@ -30,9 +31,13 @@ function MyApp({ Component, pageProps }) {
     </Head>
     <MantineProvider theme={theme}>
       <main className={`${montserrat.variable} font-mont w-full min-h-screen bg-light`}> 
+
       <Navbar/>
-      <Component {...pageProps} />
+      <AnimatePresence mode='wait'>
+      <Component key={router.asPath} {...pageProps} />
+      </AnimatePresence>
       <Footer/>
+
       </main>
     </MantineProvider>
     </>

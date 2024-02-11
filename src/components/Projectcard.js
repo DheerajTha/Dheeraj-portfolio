@@ -8,7 +8,7 @@ export default function ProjectCard({ image = "", title = "" }) {
    
 
     return (
-        <div className="border-2 border-gray-300	 transition-all rounded-2xl duration-700 hover:border-dark hover:-translate-y-5">
+        <div className="border-2 border-gray-300	 transition-all rounded-2xl duration-700 hover:border-dark hover:-translate-y-3">
             <div className="w-full">
                 <Image alt="Image" src={image} width={500} height={500} className="w-full rounded-2xl bg-rose-500 " />
             </div>

@@ -1,9 +1,12 @@
 import Image from "next/image";
 import React from "react";
 import About from "@/Assets/About.jpeg";
+import Transition from "@/components/Transition";
 
 const about = () => {
   return (
+    <>
+    <Transition/>
     <section class="text-dark ">
      
       <div className="w-full flex md:flex-row h-60 py-4 items-center justify-center">
@@ -61,6 +64,7 @@ const about = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 

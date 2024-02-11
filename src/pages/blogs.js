@@ -4,6 +4,7 @@ import {
   AccordionHeader,
   AccordionBody,
 } from "@material-tailwind/react";
+import Transition from "@/components/Transition";
 
 function Icon({ id, open }) {
   return (
@@ -32,6 +33,7 @@ const Blogs = () => {
 
   return (
     <>
+    <Transition/>
       <div className="container mx-auto  items-center px-8 py-16 sm:flex-row-reverse sm:px-12">
         <div>
           <div class="hidden h-60 relative w-full xl:flex justify-center items-center">

@@ -6,24 +6,23 @@ import { FaPhoneAlt } from "react-icons/fa";
 import HireMe from "@/components/Hire.js";
 import DheerajHero from "@/Assets/dheeraj.png";
 import TabOption from "./TabOption";
+import Transition from "./Transition";
 
 const HeroSection = () => {
   return (
     <>
+      <Transition />
       <section className="container mx-auto flex flex-col items-center px-8 pb-16 sm:flex-row-reverse sm:px-12">
         <div className="mb-8 w-full sm:mb-0 sm:w-1/2 sm:pl-4 md:pl-16">
           <Image
             alt="Dheeraj Image"
-            className="rounded-lg sm:rounded-br-[80px] sm:rounded-tl-[120px]"
+            className="rounded-lg  sm:rounded-br-[80px] sm:rounded-tl-[120px]"
             src={DheerajHero}
             width={1000}
             height={100}
           />
-
-          {/* <div className="absolute top-1/4	left-3/4 w-1/6 h-2/6	blur z-30"></div> */}
-          {/* <div className="absolute top-3/4	left-1/4 w-1/6 h-1/6 bg-rose-900	blur2 z-30"></div> */}
-          {/* <div className="absolute top-1/4	right-1/4 w-1/6 h-1/6 bg-rose-900	blur2 -z-30">   </div> */}
         </div>
+
         <div className="mr-4 w-full text-center sm:w-1/2 sm:text-left">
           <h1 className="mb-6 text-3xl font-bold leading-tight md:text-4xl">
             👋
@@ -73,6 +72,7 @@ const HeroSection = () => {
         </div>
       </div>
       <TabOption />
+      
     </>
   );
 };
