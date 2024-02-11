@@ -1,6 +1,6 @@
 import HeroSection from '@/components/Hero'
 import Project from './project'
-// import { AccordionCustomIcon } from '@/components/Whyareme'
+import { AccordionCustomIcon } from '@/components/Whyareme'
 
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
     <>
     <HeroSection/>
     <Project/>
-    {/* <AccordionCustomIcon/> */}
+    <AccordionCustomIcon/>
     </>
   )
 }

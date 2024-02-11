@@ -71,7 +71,7 @@ const Navbar = () => {
         <MdSort
           onClick={() => settoggle(!toggle)}
           size={45}
-          className="  text-secondary transition-all duration-1000 ease-out lg:hidden"
+          className="  text-dark transition-all duration-1000 ease-out lg:hidden"
         />
 
         <div>
@@ -96,7 +96,7 @@ const Navbar = () => {
         <BsTelephone
           onClick={() => settoggle(!toggle)}
           size={35}
-          className="  text-secondary transition-all duration-1000 ease-out lg:hidden"
+          className="  text-dark transition-all duration-1000 ease-out lg:hidden"
         />
       </div>
       <nav
